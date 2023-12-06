@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>PR131</title>
+   </head>
+   <body>
+    <h1>FORMULARI</h1><br/>
+    <form action="/paginaEnviament" method="post">
+        Text: <input type="text" value=""><br/>
+       Telèfon: <input type="tel" value=""><br/>
+       Email: <input type="email" value=""><br/>
+       Password: <input type="password" value=""><br/><br/>
+       <br/>Marques de Cotxe:<br/>
+       <input type="checkbox" name="Cotxe" value="Citroen">Citroen<br/>
+       <input type="checkbox" name="Cotxe" value="Seat">Seat<br/>
+       <input type="checkbox" name="Cotxe" value="Hyundai">Hyundai<br/>
+       <br/>Marques de telefons:<br/>
+       <input type="checkbox" name="telefons" value="Samsung">Samsung<br/>
+       <input type="checkbox" name="telefons" value="poma">Huawei<br/>
+       <input type="checkbox" name="telefons" value="Xiaomi">Xiaomi<br/>
+       <br/>Marques de roba:<br/>
+       <input type="radio" name="roba" value="Levi's">Levi's<br/>
+       <input type="radio" name="roba" value="Lacoste">Lacoste<br/>
+       <br/>Marques de bambes:<br/>
+       <input type="radio" name="bambes" value="Nike">Nike<br/>
+       <input type="radio" name="bambes" value="Puma">Puma<br/>
+       <input type="radio" name="bambes" value="Adidas">Adidas<br/><br/>
+       <label for="datetime">Entrada de dies i dates:</label>
+       <input type="datetime-local" id="datetime" name="datetime"><br/><br/>
+        Escollir un color: <input type="color" value="#000000"><br/><br/>
+       <select>
+        <option value="mati">mati</option>
+        <option value="tarda">tarda</option>
+        <option value="nit">nit</option>
+    </select><br/><br/>
+       <input type="submit" value="Enviar">
+        </form>
+   </body>
+</html>
